@@ -1,0 +1,9 @@
+{
+  "loadEagerly": ["*.js", "ScreepsAutocomplete/*.js", "ScreepsAutocomplete/*/*.js"],
+  "plugins": {
+    "commonjs": {},
+    "node": {},
+    "requirejs": {},
+    "node_resolve": {}
+  }
+}
