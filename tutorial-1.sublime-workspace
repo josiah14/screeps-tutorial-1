@@ -8,10 +8,11 @@
 	"buffers":
 	[
 		{
-			"file": "/home/josiah/.config/sublime-text-3/Packages/User/ActualVim.sublime-settings",
+			"file": "main.js",
 			"settings":
 			{
-				"buffer_size": 843,
+				"buffer_size": 321,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -23,10 +24,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 112.0,
-		"last_filter": "actual",
+		"height": 307.0,
+		"last_filter": "setting",
 		"selected_items":
 		[
+			[
+				"setting",
+				"Preferences: Settings"
+			],
 			[
 				"actual",
 				"ActualVim: Enable (Global)"
@@ -36,7 +41,7 @@
 				"ActualVim: Disable (Global)"
 			]
 		],
-		"width": 449.0
+		"width": 754.0
 	},
 	"console":
 	{
@@ -54,8 +59,14 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/josiah/.config/Screeps/scripts/screeps.com/tutorial-1"
+	],
 	"file_history":
 	[
+		"/home/josiah/.config/Screeps/scripts/screeps.com/tutorial-1/main.js",
+		"/home/josiah/.config/sublime-text-3/Packages/User/ActualVim.sublime-settings"
 	],
 	"find":
 	{
@@ -95,27 +106,25 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/home/josiah/.config/sublime-text-3/Packages/User/ActualVim.sublime-settings",
+					"file": "main.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 843,
+						"buffer_size": 321,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								57,
-								57
+								244,
+								244
 							]
 						],
 						"settings":
 						{
-							"actual_intercept": true,
-							"actual_mode": true,
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"translate_tabs_to_spaces": false,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"vintage":
 							{
 								"action": null,
@@ -127,7 +136,7 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 5
+								"xpos": 0
 							}
 						},
 						"translation.x": 0.0,
@@ -146,7 +155,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 59.0
 	},
 	"layout":
 	{
@@ -176,7 +185,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "main.sublime-project",
+	"project": "tutorial-1.sublime-project",
 	"replace":
 	{
 		"height": 0.0
@@ -193,12 +202,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 846.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"~/.config/Screeps/scripts/screeps.com/tutorial-1/main.sublime-workspace"
+			]
 		],
-		"width": 0.0
+		"width": 642.0
 	},
 	"select_symbol":
 	{
@@ -212,15 +225,17 @@
 	"selected_group": 0,
 	"settings":
 	{
+		"_vintageous_reset_during_init": true,
 		"vintage":
 		{
+			"_cmdline_cd": "/home/josiah/.config/Screeps/scripts/screeps.com/tutorial-1"
 		}
 	},
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 385.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
